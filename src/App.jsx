@@ -1,30 +1,35 @@
 // import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-
+import { HomeLayout, Error, Live, Merch, Music, Videos } from './pages'
+ 
 const router = createBrowserRouter([
   {
     path: '/',
-    element: <h2>homepage</h2>
+    element: <HomeLayout />,
   },
   {
     path: '/music',
-    element: <h2>music</h2>
+    element: <Music />,
   },
   {
     path: '/videos',
-    element: <h2>videos</h2>
+    element: <Videos />
   },
   {
     path: '/live',
-    element: <h2>live</h2>
+    element: <Live />
   },
   {
     path: '/merch',
-    element: <h2>merch</h2>
+    element: <Merch />
+  },
+  {
+    path: '/error',
+    element: <Error />
   },
 ])
 
-function App() {
+const App = () => {
   return <RouterProvider router={router} />
 };
 
