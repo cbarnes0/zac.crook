@@ -1,5 +1,12 @@
+import { Link } from 'react-router-dom';
+
 const Music = () => {
-    return <h2>Music</h2>
+    return (
+        <div>
+            <h1>Music</h1>
+            <Link to='/'>Home</Link>
+        </div>
+    )
 }
 
 export default Music;
