@@ -6,27 +6,30 @@ const router = createBrowserRouter([
   {
     path: '/',
     element: <HomeLayout />,
+    children: [
+      {
+        path: 'music',
+        element: <Music />,
+      },
+      {
+        path: 'videos',
+        element: <Videos />
+      },
+      {
+        path: 'live',
+        element: <Live />
+      },
+      {
+        path: 'merch',
+        element: <Merch />
+      },
+      {
+        path: 'error',
+        element: <Error />
+      },
+    ]
   },
-  {
-    path: '/music',
-    element: <Music />,
-  },
-  {
-    path: '/videos',
-    element: <Videos />
-  },
-  {
-    path: '/live',
-    element: <Live />
-  },
-  {
-    path: '/merch',
-    element: <Merch />
-  },
-  {
-    path: '/error',
-    element: <Error />
-  },
+
 ])
 
 const App = () => {
