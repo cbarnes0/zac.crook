@@ -5,7 +5,7 @@ import { faMusic } from '@fortawesome/free-solid-svg-icons'
 
 const Footer = () => {
     return (
-        <footer className='absolute bottom-0 left-0 right-0 flex justify-center border-t lg:border-hidden'>
+        <footer className='sticky bottom-0 left-0 right-0 flex justify-center border-t lg:border-hidden mt-auto'>
             <div className='text-xl flex py-3'>
                 <a className='mx-2' href='https://www.instagram.com/zac.crook/'>
                     <FontAwesomeIcon icon={faInstagram} style={{color: "#000000",}} />
