@@ -1,6 +1,6 @@
 // import './App.css'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import { HomeLayout, Error, Live, Merch, Music, Videos } from './pages'
+import { HomeLayout, Error, Live, Merch, Music, Videos, Landing } from './pages'
  
 const router = createBrowserRouter([
   {
@@ -26,6 +26,10 @@ const router = createBrowserRouter([
       {
         path: 'error',
         element: <Error />
+      },
+      {
+        path: 'landing',
+        element: <Landing />
       },
     ]
   },
