@@ -1,5 +1,5 @@
 const Videos = () => {
-    return <h2>Videos</h2>
+    return <h1>Videos</h1>
 }
 
 export default Videos;

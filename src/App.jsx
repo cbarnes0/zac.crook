@@ -8,6 +8,10 @@ const router = createBrowserRouter([
     element: <HomeLayout />,
     children: [
       {
+        index: true,
+        element: <Landing />
+      },
+      {
         path: 'music',
         element: <Music />,
       },
@@ -26,10 +30,6 @@ const router = createBrowserRouter([
       {
         path: 'error',
         element: <Error />
-      },
-      {
-        path: 'landing',
-        element: <Landing />
       },
     ]
   },
