@@ -2,20 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.fade-in {
-  opacity: 1;
-  transition: opacity 0.5s ease-in-out;
-}
-
-/* Initial state */
-footer {
-  opacity: 0;
-}
-
-/* Fade-out effect */
-.fade-out {
-  opacity: 0;
-}
 
 /* :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;

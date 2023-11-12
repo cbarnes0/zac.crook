@@ -16,7 +16,7 @@ const Music = () => {
                         loading="lazy"
                     />
                 </div>
-                <div className='relative top-0 left-0 right-0 flex justify-center text-white font-bold py-4'>
+                <div className='mb-16 relative top-0 left-0 right-0 flex justify-center text-white font-bold py-4'>
                     <iframe
                         style={{ borderRadius: '12px' }}
                         src="https://open.spotify.com/embed/album/4J63RVTG5C5RrfvyhENNiL?utm_source=generator&theme=0"
