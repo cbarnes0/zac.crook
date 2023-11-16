@@ -15,7 +15,7 @@ const Navbar = () => {
             <NavLink to='/live' className='nav-link'>
                 Live
             </NavLink>
-            <NavLink to='/merch' className='nav-link'>
+            <NavLink to='https://www.instagram.com/supercoolbadass.psd/' className='nav-link'>
                 Merch
             </NavLink>
         </nav>
