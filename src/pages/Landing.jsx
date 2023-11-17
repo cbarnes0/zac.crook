@@ -1,4 +1,4 @@
-import zaccrook from '../assets/zaccrook.PNG'
+import zaccrook from '../assets/zaccrook.png'
 
 const Landing = () => {
     return (
