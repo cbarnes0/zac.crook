@@ -2,7 +2,7 @@ import React from 'react';
 
 const Videos = () => {
   return (
-    <div className="flex justify-center items-center mt-16 mx-28 w-full h-full">
+    <div className="flex justify-center items-center my-16 mx-28 w-full h-full">
       <div className="w-full max-w-screen-lg">
         <div className="relative" style={{ paddingTop: '56.25%' }}>
           <iframe
