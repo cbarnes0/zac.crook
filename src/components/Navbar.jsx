@@ -17,7 +17,7 @@ const Navbar = () => {
         live
       </NavLink>
       <a href='https://www.instagram.com/supercoolbadass.psd/' className='nav-link font-bold text-red-500' target="_blank" rel="noopener noreferrer">
-        merch
+        supercoolbadass
       </a>
     </nav>
   );
