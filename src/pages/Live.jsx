@@ -1,7 +1,7 @@
 const Live = () => {
     return (
         <div className="flex flex-col items-center justify-center mt-8">
-            <div className="text-center mt-8">
+            <div className="text-center mt-8 line-through">
                 <h2 className="text-xl font-bold">Atlanta, GA</h2>
                 <p>
                     529 Flat Shoals Ave SE
