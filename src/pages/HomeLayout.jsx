@@ -4,7 +4,7 @@ import Footer from '../components/Footer';
 
 const HomeLayout = () => {
     return (
-        <div className='min-h-screen flex flex-col relative'>
+        <div className='min-h-screen flex flex-col relative bg-white dark:bg-slate-700'>
             <div className='flex-grow flex flex-col bg-fixed bg-cover bg-center'>
                 <div className='relative min-h-screen flex flex-col items-center text-black'>
                     <Navbar />
