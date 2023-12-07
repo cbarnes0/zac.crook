@@ -13,7 +13,7 @@ const Live = () => {
                     8:30pm // $15
                 </p>
             </div>
-            <div className="text-center mt-8">
+            <div className="text-center mt-8 line-through">
                 <h2 className="text-xl font-bold">Athens, GA</h2>
                 <p>
                     160 Winston Dr. #9
